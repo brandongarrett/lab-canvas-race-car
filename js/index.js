@@ -17,7 +17,7 @@ ctx.fillStyle = 'red';
 let img = new Image()
 img.src = 'road.png'
 img.onload = function () {
-  ctx.drawImage(img, 500, 500, 50, 50)
+  ctx.drawImage(img, 0, 0, 0, 0)
 }
 
 let car = {
